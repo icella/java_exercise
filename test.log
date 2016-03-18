@@ -1,0 +1,436 @@
+2016-01-11 18:34:18 INFO exercise.com.leo.base.lang.reflect.Main:19-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-11 18:34:18 INFO exercise.com.leo.base.lang.reflect.Main:11-->===============================================
+2016-01-13 16:26:15 INFO exercise.com.leo.base.lang.reflect.Main:22-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-13 16:26:15 INFO exercise.com.leo.base.lang.reflect.Main:11-->===============================================
+2016-01-13 16:26:15 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:15:34 INFO exercise.com.leo.base.lang.reflect.Main:25-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:15:34 INFO exercise.com.leo.base.lang.reflect.Main:11-->===============================================
+2016-01-14 18:15:34 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:15:34 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:15:56 INFO exercise.com.leo.base.lang.reflect.Main:25-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:15:56 INFO exercise.com.leo.base.lang.reflect.Main:11-->===============================================
+2016-01-14 18:15:56 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:15:56 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:16:00 INFO exercise.com.leo.base.lang.reflect.Main:25-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:16:00 INFO exercise.com.leo.base.lang.reflect.Main:11-->===============================================
+2016-01-14 18:16:00 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:16:00 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:16:04 INFO exercise.com.leo.base.lang.reflect.Main:25-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:16:04 INFO exercise.com.leo.base.lang.reflect.Main:11-->===============================================
+2016-01-14 18:16:04 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:16:04 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:23:28 INFO exercise.com.leo.base.lang.reflect.Main:31-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:23:28 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:23:28 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:23:28 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:24:03 INFO exercise.com.leo.base.lang.reflect.Main:31-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:24:03 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:24:03 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:24:03 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:24:03 INFO exercise.com.leo.base.lang.reflect.Main:23-->===============================================
+2016-01-14 18:24:09 INFO exercise.com.leo.base.lang.reflect.Main:31-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:24:09 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:24:09 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:24:09 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:24:09 INFO exercise.com.leo.base.lang.reflect.Main:23-->===============================================
+2016-01-14 18:31:41 INFO exercise.com.leo.base.lang.reflect.Main:31-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:31:41 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:31:41 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:31:41 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:31:41 INFO exercise.com.leo.base.lang.reflect.Main:23-->===============================================
+2016-01-14 18:32:01 INFO exercise.com.leo.base.lang.reflect.Main:31-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:32:01 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:32:01 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:32:01 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:32:01 INFO exercise.com.leo.base.lang.reflect.Main:23-->===============================================
+2016-01-14 18:32:06 INFO exercise.com.leo.base.lang.reflect.Main:31-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:32:06 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:32:06 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:32:06 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:32:06 INFO exercise.com.leo.base.lang.reflect.Main:23-->===============================================
+2016-01-14 18:32:18 INFO exercise.com.leo.base.lang.reflect.Main:31-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:32:18 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:32:18 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:32:18 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:32:44 INFO exercise.com.leo.base.lang.reflect.Main:31-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:32:44 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:32:44 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:32:44 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:32:44 INFO exercise.com.leo.base.lang.reflect.Main:23-->===============================================
+2016-01-14 18:33:05 INFO exercise.com.leo.base.lang.reflect.Main:31-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:33:05 INFO exercise.com.leo.base.lang.reflect.Main:14-->===============================================
+2016-01-14 18:33:05 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:33:05 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:33:05 INFO exercise.com.leo.base.lang.reflect.Main:23-->===============================================
+2016-01-14 18:38:25 INFO exercise.com.leo.base.lang.reflect.Main:32-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:38:25 INFO exercise.com.leo.base.lang.reflect.Main:15-->===============================================
+2016-01-14 18:38:25 INFO exercise.com.leo.base.lang.reflect.Main:18-->===============================================
+2016-01-14 18:38:25 INFO exercise.com.leo.base.lang.reflect.Main:21-->===============================================
+2016-01-14 18:38:25 INFO exercise.com.leo.base.lang.reflect.Main:24-->===============================================
+2016-01-14 18:38:45 INFO exercise.com.leo.base.lang.reflect.Main:37-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:38:45 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:38:45 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:38:45 INFO exercise.com.leo.base.lang.reflect.Main:23-->===============================================
+2016-01-14 18:38:45 INFO exercise.com.leo.base.lang.reflect.Main:26-->===============================================
+2016-01-14 18:39:07 INFO exercise.com.leo.base.lang.reflect.Main:37-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:39:07 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:39:07 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:39:07 INFO exercise.com.leo.base.lang.reflect.Main:23-->===============================================
+2016-01-14 18:39:07 INFO exercise.com.leo.base.lang.reflect.Main:26-->===============================================
+2016-01-14 18:39:07 INFO exercise.com.leo.base.lang.reflect.Main:29-->===============================================
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:37-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:17-->===============================================
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:50-->Demo2:(写法1) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:53-->Demo2:(写法2) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:20-->===============================================
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:70-->Demo3:	Fee 20
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:23-->===============================================
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:96-->exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:98-->Demo4: Fee:20, Fee:20
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:26-->===============================================
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:112-->Demo5: 修改属性后得到属性变量的值：中华
+2016-01-14 18:40:58 INFO exercise.com.leo.base.lang.reflect.Main:29-->===============================================
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:39-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:19-->===============================================
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:52-->Demo2:(写法1) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:55-->Demo2:(写法2) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:22-->===============================================
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:72-->Demo3:	Fee 20
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:25-->===============================================
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:98-->exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:100-->Demo4: Fee:20, Fee:20
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:28-->===============================================
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:114-->Demo5: 修改属性后得到属性变量的值：中华
+2016-01-14 18:51:07 INFO exercise.com.leo.base.lang.reflect.Main:31-->===============================================
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:39-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:19-->===============================================
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:52-->Demo2:(写法1) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:55-->Demo2:(写法2) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:22-->===============================================
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:72-->Demo3:	Fee 20
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:25-->===============================================
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:98-->exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:100-->Demo4: Fee:20, Fee:20
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:28-->===============================================
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:114-->Demo5: 修改属性后得到属性变量的值：中华
+2016-01-14 18:51:42 INFO exercise.com.leo.base.lang.reflect.Main:31-->===============================================
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:42-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:19-->===============================================
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:55-->Demo2:(写法1) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:58-->Demo2:(写法2) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:22-->===============================================
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:75-->Demo3:	Fee 20
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:25-->===============================================
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:97-->public exercise.com.leo.base.lang.reflect.Person()
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:101-->exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:103-->Demo4: Fee:20, Fee:20
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:28-->===============================================
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:117-->Demo5: 修改属性后得到属性变量的值：中华
+2016-01-14 18:52:53 INFO exercise.com.leo.base.lang.reflect.Main:31-->===============================================
+2016-01-14 18:53:13 INFO exercise.com.leo.base.lang.reflect.Main:129-->Demo6:  SuperMan类的父类名: java.lang.Object
+2016-01-14 18:53:24 INFO exercise.com.leo.base.lang.reflect.Main:133-->类中的成员: private int exercise.com.leo.base.lang.reflect.Person.age
+2016-01-14 18:53:25 INFO exercise.com.leo.base.lang.reflect.Main:133-->类中的成员: private java.lang.String exercise.com.leo.base.lang.reflect.Person.name
+2016-01-14 18:53:33 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:53:36 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：getName
+2016-01-14 18:53:38 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：class java.lang.String
+2016-01-14 18:53:41 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:53:43 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public java.lang.String exercise.com.leo.base.lang.reflect.Person.getName()
+2016-01-14 18:53:48 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:53:48 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：setName
+2016-01-14 18:53:48 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：void
+2016-01-14 18:53:48 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:53:49 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public void exercise.com.leo.base.lang.reflect.Person.setName(java.lang.String)
+2016-01-14 18:53:49 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:53:49 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：getAge
+2016-01-14 18:53:49 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：int
+2016-01-14 18:53:49 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:53:50 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public int exercise.com.leo.base.lang.reflect.Person.getAge()
+2016-01-14 18:53:50 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:53:50 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：setAge
+2016-01-14 18:53:50 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：void
+2016-01-14 18:53:51 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:53:51 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public void exercise.com.leo.base.lang.reflect.Person.setAge(int)
+2016-01-14 18:54:03 INFO exercise.com.leo.base.lang.reflect.Main:34-->===============================================
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:42-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:19-->===============================================
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:55-->Demo2:(写法1) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:58-->Demo2:(写法2) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:22-->===============================================
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:75-->Demo3:	Fee 20
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:25-->===============================================
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:97-->public exercise.com.leo.base.lang.reflect.Person()
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:101-->exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:103-->Demo4: Fee:20, Fee:20
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:28-->===============================================
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:117-->Demo5: 修改属性后得到属性变量的值：中华
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:31-->===============================================
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:129-->Demo6:  SuperMan类的父类名: java.lang.Object
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:133-->类中的成员: private int exercise.com.leo.base.lang.reflect.Person.age
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:133-->类中的成员: private java.lang.String exercise.com.leo.base.lang.reflect.Person.name
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：getName
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：class java.lang.String
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public java.lang.String exercise.com.leo.base.lang.reflect.Person.getName()
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：setName
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：void
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public void exercise.com.leo.base.lang.reflect.Person.setName(java.lang.String)
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：setAge
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：void
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public void exercise.com.leo.base.lang.reflect.Person.setAge(int)
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：getAge
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：int
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:54:23 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public int exercise.com.leo.base.lang.reflect.Person.getAge()
+2016-01-14 18:55:14 INFO exercise.com.leo.base.lang.reflect.Main:34-->===============================================
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:42-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:19-->===============================================
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:55-->Demo2:(写法1) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:58-->Demo2:(写法2) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:22-->===============================================
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:75-->Demo3:	Fee 20
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:25-->===============================================
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:97-->public exercise.com.leo.base.lang.reflect.Person()
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:101-->exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:103-->Demo4: Fee:20, Fee:20
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:28-->===============================================
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:117-->Demo5: 修改属性后得到属性变量的值：中华
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:31-->===============================================
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:129-->Demo6:  SuperMan类的父类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:133-->类中的成员: private boolean exercise.com.leo.base.lang.reflect.SuperMan.blueBriefs
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：isBlueBriefs
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：boolean
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public boolean exercise.com.leo.base.lang.reflect.SuperMan.isBlueBriefs()
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：setBlueBriefs
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：void
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.setBlueBriefs(boolean)
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：walk
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：void
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.walk(int)
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:138-->Demo6,取得SuperMan类的方法：
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:139-->函数名：fly
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:140-->函数返回类型：void
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:141-->函数访问修饰符：public
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.fly()
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:147-->实现的接口类名: exercise.com.leo.base.lang.reflect.ActionInterface
+2016-01-14 18:58:26 INFO exercise.com.leo.base.lang.reflect.Main:34-->===============================================
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:45-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:19-->===============================================
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:58-->Demo2:(写法1) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:61-->Demo2:(写法2) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:22-->===============================================
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:78-->Demo3:	Fee 20
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:25-->===============================================
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:100-->public exercise.com.leo.base.lang.reflect.Person()
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:104-->exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:106-->Demo4: Fee:20, Fee:20
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:28-->===============================================
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:120-->Demo5: 修改属性后得到属性变量的值：中华
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:31-->===============================================
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:132-->Demo6:  SuperMan类的父类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:136-->类中的成员: private boolean exercise.com.leo.base.lang.reflect.SuperMan.blueBriefs
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:141-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数名：walk
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:143-->函数返回类型：void
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:144-->函数访问修饰符：public
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.walk(int)
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:141-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数名：fly
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:143-->函数返回类型：void
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:144-->函数访问修饰符：public
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.fly()
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:141-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数名：isBlueBriefs
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:143-->函数返回类型：boolean
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:144-->函数访问修饰符：public
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数代码写法： public boolean exercise.com.leo.base.lang.reflect.SuperMan.isBlueBriefs()
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:141-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数名：setBlueBriefs
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:143-->函数返回类型：void
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:144-->函数访问修饰符：public
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.setBlueBriefs(boolean)
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:150-->实现的接口类名: exercise.com.leo.base.lang.reflect.ActionInterface
+2016-01-14 19:02:01 INFO exercise.com.leo.base.lang.reflect.Main:34-->===============================================
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:45-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:19-->===============================================
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:58-->Demo2:(写法1) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:61-->Demo2:(写法2) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:22-->===============================================
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:78-->Demo3:	Fee 20
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:25-->===============================================
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:100-->public exercise.com.leo.base.lang.reflect.Person()
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:104-->exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:106-->Demo4: Fee:20, Fee:20
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:28-->===============================================
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:120-->Demo5: 修改属性后得到属性变量的值：中华
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:31-->===============================================
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:132-->Demo6:  SuperMan类的父类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:136-->类中的成员: private boolean exercise.com.leo.base.lang.reflect.SuperMan.blueBriefs
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:141-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数名：fly
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:143-->函数返回类型：void
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:144-->函数访问修饰符：public
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.fly()
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:141-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数名：walk
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:143-->函数返回类型：void
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:144-->函数访问修饰符：public
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.walk(int)
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:141-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数名：isBlueBriefs
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:143-->函数返回类型：boolean
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:144-->函数访问修饰符：public
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数代码写法： public boolean exercise.com.leo.base.lang.reflect.SuperMan.isBlueBriefs()
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:141-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:142-->函数名：setBlueBriefs
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:143-->函数返回类型：void
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:144-->函数访问修饰符：public
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.setBlueBriefs(boolean)
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:150-->实现的接口类名: exercise.com.leo.base.lang.reflect.ActionInterface
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:34-->===============================================
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:158-->Demo7: 
+调用无参方法fly()：
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:162-->调用有参方法walk(int m)：
+2016-01-14 19:02:18 INFO exercise.com.leo.base.lang.reflect.Main:37-->===============================================
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:48-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:19-->===============================================
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:61-->Demo2:(写法1) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:64-->Demo2:(写法2) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:22-->===============================================
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:81-->Demo3:	Fee 20
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:25-->===============================================
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:103-->public exercise.com.leo.base.lang.reflect.Person()
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:107-->exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:109-->Demo4: Fee:20, Fee:20
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:28-->===============================================
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:123-->Demo5: 修改属性后得到属性变量的值：中华
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:31-->===============================================
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:135-->Demo6:  SuperMan类的父类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:139-->类中的成员: private boolean exercise.com.leo.base.lang.reflect.SuperMan.blueBriefs
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：walk
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：void
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.walk(int)
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：fly
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：void
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.fly()
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：setBlueBriefs
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：void
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.setBlueBriefs(boolean)
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：isBlueBriefs
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：boolean
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public boolean exercise.com.leo.base.lang.reflect.SuperMan.isBlueBriefs()
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:153-->实现的接口类名: exercise.com.leo.base.lang.reflect.ActionInterface
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:34-->===============================================
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:171-->Demo7: 
+调用无参方法fly()：
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:175-->调用有参方法walk(int m)：
+2016-01-14 19:03:55 INFO exercise.com.leo.base.lang.reflect.Main:37-->===============================================
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:48-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:19-->===============================================
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:61-->Demo2:(写法1) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:64-->Demo2:(写法2) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:22-->===============================================
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:81-->Demo3:	Fee 20
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:25-->===============================================
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:103-->public exercise.com.leo.base.lang.reflect.Person()
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:107-->exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:109-->Demo4: Fee:20, Fee:20
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:28-->===============================================
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:123-->Demo5: 修改属性后得到属性变量的值：中华
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:31-->===============================================
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:135-->Demo6:  SuperMan类的父类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:139-->类中的成员: private boolean exercise.com.leo.base.lang.reflect.SuperMan.blueBriefs
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：walk
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：void
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.walk(int)
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：fly
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：void
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.fly()
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：isBlueBriefs
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：boolean
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public boolean exercise.com.leo.base.lang.reflect.SuperMan.isBlueBriefs()
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：setBlueBriefs
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：void
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.setBlueBriefs(boolean)
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:153-->实现的接口类名: exercise.com.leo.base.lang.reflect.ActionInterface
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:34-->===============================================
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:171-->Demo7: 
+调用无参方法fly()：
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:175-->调用有参方法walk(int m)：
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:37-->===============================================
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:195-->Demo8: 类加载器类名: sun.misc.Launcher$AppClassLoader
+2016-01-14 19:04:12 INFO exercise.com.leo.base.lang.reflect.Main:40-->===============================================
+2016-01-21 18:38:35 INFO exercise.com.leo.base.lang.transients.TransientTest:21-->read before serializable:
+2016-01-21 18:38:35 INFO exercise.com.leo.base.lang.transients.TransientTest:22-->username: Alexiapassword: 123456
+2016-01-21 18:38:36 INFO exercise.com.leo.base.lang.transients.TransientTest:37-->read after serializable:
+2016-01-21 18:38:36 INFO exercise.com.leo.base.lang.transients.TransientTest:38-->username: Alexiapassword: null
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:48-->Demo1: 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:19-->===============================================
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:61-->Demo2:(写法1) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:64-->Demo2:(写法2) 包名: exercise.com.leo.base.lang.reflect，完整类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:22-->===============================================
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:81-->Demo3:	Fee 20
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:25-->===============================================
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:103-->public exercise.com.leo.base.lang.reflect.Person()
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:107-->exercise.com.leo.base.lang.reflect.Person
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:109-->Demo4: Fee:20, Fee:20
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:28-->===============================================
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:123-->Demo5: 修改属性后得到属性变量的值：中华
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:31-->===============================================
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:135-->Demo6:  SuperMan类的父类名: exercise.com.leo.base.lang.reflect.Person
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:139-->类中的成员: private boolean exercise.com.leo.base.lang.reflect.SuperMan.blueBriefs
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：walk
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：void
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.walk(int)
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：fly
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：void
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.fly()
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：setBlueBriefs
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：void
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public void exercise.com.leo.base.lang.reflect.SuperMan.setBlueBriefs(boolean)
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:144-->Demo6,取得SuperMan类的方法：
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:145-->函数名：isBlueBriefs
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:146-->函数返回类型：boolean
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:147-->函数访问修饰符：public
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:148-->函数代码写法： public boolean exercise.com.leo.base.lang.reflect.SuperMan.isBlueBriefs()
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:153-->实现的接口类名: exercise.com.leo.base.lang.reflect.ActionInterface
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:34-->===============================================
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:171-->Demo7: 
+调用无参方法fly()：
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:175-->调用有参方法walk(int m)：
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:37-->===============================================
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:195-->Demo8: 类加载器类名: sun.misc.Launcher$AppClassLoader
+2016-01-25 09:34:19 INFO exercise.com.leo.base.lang.reflect.Main:40-->===============================================

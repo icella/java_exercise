@@ -22,6 +22,7 @@ public class MapTest {
 		map1.put(1, "34");
 		map1.put(1, "56");
 		System.out.println(map1.values());
+		System.out.println(map1.size());
 	}
 
 }
