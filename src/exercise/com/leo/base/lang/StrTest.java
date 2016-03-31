@@ -17,5 +17,6 @@ public class StrTest {
 			System.out.println(true);
 		}
 		
+		System.out.println(Runtime.getRuntime().availableProcessors());
 	}
 }

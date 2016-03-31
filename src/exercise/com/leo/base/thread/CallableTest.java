@@ -21,11 +21,10 @@ public class CallableTest {
 			System.out.println(seedMoney);
 			return seedMoney / 10;
 		}
-		
 	}
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
-		ExecutorService es = Executors.newFixedThreadPool(10);
+		ExecutorService es = Executors.newFixedThreadPool(4);
 		Future<Integer> future = es.submit(new TaxCalculator(100));
 		while(!future.isDone()){
 			TimeUnit.MILLISECONDS.sleep(200);
