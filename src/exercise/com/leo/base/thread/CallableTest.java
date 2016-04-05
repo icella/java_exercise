@@ -30,7 +30,7 @@ public class CallableTest {
 			TimeUnit.MILLISECONDS.sleep(200);
 			System.out.print("#");
 		}
-		System.out.println("\n计算完成， 税金是： " + future.get() + "元");
+		System.out.println("\n Complete at:" + future.get() + "yuan");
 		es.shutdown();
 	}
 
