@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.commons.collections.ListUtils;
+
 import com.google.common.collect.Lists;
 
 public class SetOperateTest {
@@ -21,12 +23,23 @@ public class SetOperateTest {
 		list2.add("5555");
 
 
-		printStr(list1);
+		/*printStr(list1);
 		System.out.println("*****************");
 		printStr(list2);
 		System.out.println("*****************");
 		List<String> intersectList = new SetOperateTest().diff(list1, list2);
-		printStr(intersectList);
+		printStr(intersectList);*/
+		
+		list1.addAll(list2);
+		System.out.println(list1.size());
+		for (String string : list1) {
+			System.out.println(string);
+		}
+		
+		System.out.println("*****************");
+			String ele1 = list1.get(0);
+			for (int j = 1; j < list1.size(); j++) {
+			}
 	}
 
 	private static void printStr(List<String> list) {

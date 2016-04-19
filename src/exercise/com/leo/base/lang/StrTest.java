@@ -18,5 +18,10 @@ public class StrTest {
 		}
 		
 		System.out.println(Runtime.getRuntime().availableProcessors());
+		
+		timeStrList.clear();
+		for (String strList : timeStrList) {
+			System.out.println(strList);
+		}
 	}
 }

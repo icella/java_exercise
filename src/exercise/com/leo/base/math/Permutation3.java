@@ -11,7 +11,7 @@ import com.google.common.collect.Lists;
  * 2}, {1, 3}, {1, 4}, {2, 3}, {2, 4} and {3, 4}.
  */
 public class Permutation3 {
-
+	List<ContactInfo> datas = Lists.newArrayList();
 	public static void main(String[] args) {
 		List<ContactInfo> contacts = Lists.newArrayList();
         contacts.add(new ContactInfo().setPhone("a").setImei("354273059932330").setImsi("460010085093067"));
