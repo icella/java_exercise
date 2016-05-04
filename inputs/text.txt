@@ -1,0 +1,3 @@
+readTextA_ByClassPath(); 
+readTextA_ByProjectRelativePath(); 
+readTextB_ByProjectRelativePath(); 
