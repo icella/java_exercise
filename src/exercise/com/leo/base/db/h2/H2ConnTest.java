@@ -11,10 +11,10 @@ import org.junit.After;
 import org.junit.Test;
 
 public class H2ConnTest {
-	private static String JDBC_URL = "";
+	private String JDBC_URL = "";
 	
-	private static final String USER = "gacl";
-	private static final String PASSWORD = "123";
+	private static final String USER = "sa";
+	private static final String PASSWORD = "";
 	private static final String DRIVER_CLASS = "org.h2.Driver";
 	
 	Connection conn ;
@@ -44,7 +44,7 @@ public class H2ConnTest {
 //	@Test
 	public void test1() throws SQLException, ClassNotFoundException{
 		//数据库连接URL，当前连接的是D:/Program Files/h2目录下的manualConfig数据库
-		JDBC_URL = "jdbc:h2:D:/Program Files/h2/manualConfig";
+		JDBC_URL = "jdbc:h2:~/test";
 		
 		init();
 		dropTable();
@@ -61,10 +61,10 @@ public class H2ConnTest {
 	 * <p>注意：如果使用H2数据库的内存模式，那么我们创建的数据库和表都只是保存在内存中，一旦服务器重启，那么内存中的数据库和表就不存在了。
 	 * @throws Exception
 	 */
-//	@Test
+	@Test
 	public void test2() throws Exception {
 		//数据库连接URL，通过使用TCP/IP的服务器模式（远程连接），当前连接的是D:/Program Files/h2目录下的manualConfig数据库
-		JDBC_URL = "jdbc:h2:tcp://localhost/D:/Program Files/h2/manualConfig";
+		JDBC_URL = "jdbc:h2:tcp://localhost/~/test";
 		
 		init();
 		dropTable();
@@ -80,7 +80,7 @@ public class H2ConnTest {
 	 * @throws SQLException
 	 * @throws ClassNotFoundException 
 	 */
-	@Test
+//	@Test
 	public void test3() throws SQLException, ClassNotFoundException{
 		//数据库连接URL，通过使用TCP/IP的服务器模式（远程连接），当前连接的是内存里面的gacl数据库
 		JDBC_URL = "jdbc:h2:tcp://localhost/mem:manualConfig";

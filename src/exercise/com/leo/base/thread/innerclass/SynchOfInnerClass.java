@@ -25,7 +25,7 @@ public class SynchOfInnerClass {
 	
 	public static void main(String[] args) {
 		SynchOfInnerClass synchOfInnerClass = new SynchOfInnerClass();
-		InnerClass innerClass = synchOfInnerClass.getInnerClass();
+		final InnerClass innerClass = synchOfInnerClass.getInnerClass();
 		
 		Thread thread = new Thread(new Runnable(){
 

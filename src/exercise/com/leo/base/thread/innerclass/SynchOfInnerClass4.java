@@ -1,7 +1,5 @@
 package exercise.com.leo.base.thread.innerclass;
 
-import exercise.com.leo.base.thread.innerclass.SynchOfInnerClass3.InnerClass;
-
 public class SynchOfInnerClass4 {
 
 	class InnerClass{
@@ -34,7 +32,7 @@ public class SynchOfInnerClass4 {
 	
 	public static void main(String[] args) {
 		SynchOfInnerClass4 synchOfInnerClass = new SynchOfInnerClass4();
-		InnerClass innerClass = synchOfInnerClass.getInnerClass();
+		final InnerClass innerClass = synchOfInnerClass.getInnerClass();
 		
 		Thread thread = new Thread(new Runnable(){
 

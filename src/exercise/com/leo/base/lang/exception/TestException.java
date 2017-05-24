@@ -13,8 +13,9 @@ public class TestException {
             throw e;  
         } finally {  
             System.out.println("testEx, finally; return value=" + ret);  
-            return ret;  
         }  
+        
+        return ret;  
     }  
   
     boolean testEx1() throws Exception {  
@@ -32,7 +33,6 @@ public class TestException {
             throw e;  
         } finally {  
             System.out.println("testEx1, finally; return value=" + ret);  
-            return ret;  
         }  
     }  
   
@@ -52,14 +52,43 @@ public class TestException {
             throw e;  
         } finally {  
             System.out.println("testEx2, finally; return value=" + ret);  
-            return ret;  
         }  
     }  
+    
+    boolean testEx3() throws Exception {  
+      boolean ret = true;  
+      try {  
+        String tempStr = "1,2,3";
+        String[] spliter = tempStr.split(",");
+        if(spliter[3].equals("3")){
+          ret = true;
+        }
+        ret = false;
+      } catch (Exception e) {  
+          System.out.println("testEx, catch exception");  
+//          ret = false;  
+      }
+      
+      return ret;
+  }  
+    
+    boolean testEx4() throws Exception{
+      boolean ret = true;
+      String tempStr = "1,2,3";
+      String[] spliter = tempStr.split(",");
+      
+      if(ret){
+        return spliter[3].equals("3");
+      }
+      
+      return ret;
+    }
   
     public static void main(String[] args) {  
         TestException testException1 = new TestException();  
         try {  
-            testException1.testEx();  
+          boolean result = testException1.testEx4();
+          System.out.println(result ? 1 : 0);  
         } catch (Exception e) {  
             e.printStackTrace();  
         }  

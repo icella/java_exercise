@@ -31,7 +31,7 @@ public class SynchOfInnerClass2 {
 	
 	public static void main(String[] args) {
 		SynchOfInnerClass2 synchOfInnerClass = new SynchOfInnerClass2();
-		InnerClass innerClass = synchOfInnerClass.getInnerClass();
+		final InnerClass innerClass = synchOfInnerClass.getInnerClass();
 		
 		Thread thread = new Thread(new Runnable(){
 

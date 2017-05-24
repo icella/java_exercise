@@ -22,7 +22,8 @@ public class CurrentTimeId {
 	private static AtomicReference<Long> currentTime = new AtomicReference<>(System.currentTimeMillis());
 
 	public static Long nextId() {
-		return currentTime.accumulateAndGet(System.currentTimeMillis(), (prev, next) -> next > prev ? next : prev + 1);
+//		return currentTime.accumulateAndGet(System.currentTimeMillis(), (prev, next) -> next > prev ? next : prev + 1);
+	  return null;
 	}
 
 	public static Long nextIdEarlierVer() {

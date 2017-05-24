@@ -1,13 +1,8 @@
 package exercise.com.leo.base.collections.guava;
 
-import org.junit.After;
-import static org.junit.Assert.*;
-
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 
-import static org.hamcrest.Matcher.*;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 

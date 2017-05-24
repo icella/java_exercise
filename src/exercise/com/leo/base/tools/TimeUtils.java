@@ -3,6 +3,7 @@ package exercise.com.leo.base.tools;
 import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.TimeZone;
 
 public class TimeUtils {
 
@@ -154,6 +155,13 @@ public class TimeUtils {
 		String ctime = formatter.format(new Date());
 		return ctime;
 	}
+	
+	public static String format(Date date, String format)
+    {
+        SimpleDateFormat sf = new SimpleDateFormat(format);
+        sf.setTimeZone(TimeZone.getTimeZone("Asia/Shanghai"));
+        return sf.format(date);
+    }
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

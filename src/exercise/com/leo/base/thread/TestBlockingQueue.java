@@ -2,7 +2,6 @@ package exercise.com.leo.base.thread;
 
 import java.io.File;
 import java.io.FileFilter;
-import java.lang.reflect.WildcardType;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

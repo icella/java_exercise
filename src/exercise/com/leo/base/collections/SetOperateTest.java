@@ -5,8 +5,6 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import org.apache.commons.collections.ListUtils;
-
 import com.google.common.collect.Lists;
 
 public class SetOperateTest {

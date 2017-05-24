@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:task="http://www.springframework.org/schema/task" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+		http://www.springframework.org/schema/security
+		http://www.springframework.org/schema/security/spring-security-3.2.xsd
+		http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/data/jpa
+		http://www.springframework.org/schema/data/jpa/spring-jpa-2.1.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/jdbc
+		http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd">
+
+	<context:annotation-config></context:annotation-config>
+
+	<bean id="parentDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+
+		<property name="driverClass" value="com.mysql.jdbc.Driver" />
+
+		<property name="jdbcUrl"
+			value="jdbc:mysql://192.168.109.220:3306/upca?useUnicode=true&amp;characterEncoding=UTF-8" />
+		<property name="user">
+			<value>upc</value>
+		</property>
+		<property name="password">
+			<value>root123</value>
+		</property>
+		<property name="minPoolSize">
+			<value>2</value>
+		</property>
+		<property name="maxPoolSize">
+			<value>5</value>
+		</property>
+		<property name="maxIdleTime">
+			<value>1800</value>
+		</property>
+		<property name="acquireIncrement">
+			<value>2</value>
+		</property>
+		<property name="maxStatements">
+			<value>0</value>
+		</property>
+		<property name="initialPoolSize">
+			<value>2</value>
+		</property>
+		<property name="idleConnectionTestPeriod">
+			<value>1800</value>
+		</property>
+		<property name="acquireRetryAttempts">
+			<value>30</value>
+		</property>
+		<property name="breakAfterAcquireFailure">
+			<value>true</value>
+		</property>
+		<property name="testConnectionOnCheckout">
+			<value>false</value>
+		</property>
+	</bean>
+
+	<!-- 读数据源 -->
+	<bean id="readDataSource" parent="parentDataSource">
+	</bean>
+
+	<!-- 写数据源 -->
+	<bean id="writeDataSource" parent="parentDataSource">
+	</bean>
+
+	<bean id="h2DataSource" class="org.h2.jdbcx.JdbcConnectionPool"
+		destroy-method="dispose">
+		<constructor-arg>
+			<bean class="org.h2.jdbcx.JdbcDataSource">
+				<property name="URL" value="jdbc:h2:mem:upc" />
+				<property name="user" value="upc" />
+				<property name="password" value="root123" />
+			</bean>
+		</constructor-arg>
+		<property name="maxConnections" value="1000" />
+	</bean>
+
+	<jdbc:initialize-database data-source="h2DataSource" ignore-failures="ALL">
+		<jdbc:script location="/script/create_table_phone_segment_info.sql" />
+		<jdbc:script location="/script/insert_phone_segment_info.sql" />
+		<jdbc:script location="/script/create_table_dun_tel.sql" />
+		<jdbc:script location="/script/insert_dun_tel.sql" />
+	</jdbc:initialize-database>
+	
+	<bean id="dataSource" class="utn.app.datasource.DynamicDataSource">
+		<property name="targetDataSources">
+			<map key-type="java.lang.String">
+				<entry key="write" value-ref="writeDataSource" />
+				<entry key="read" value-ref="readDataSource" />
+				<entry key="h2" value-ref="h2DataSource" />
+			</map>
+		</property>
+		<property name="defaultTargetDataSource" ref="readDataSource" />
+	</bean>
+	<!--session工厂 -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<!-- <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop> -->
+
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="hibernate.format_sql">false</prop>
+				<prop key="hibernate.cache.use_second_level_cache">true</prop>
+				<prop key="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory
+				</prop>
+				<prop key="hibernate.cache.use_query_cache">true</prop>
+				<prop key="hibernate.cache.use_second_level_cache">true</prop>
+				<prop key="hibernate.connection.useUnicode">true</prop>
+				<prop key="hibernate.connection.characterEncoding">UTF-8</prop>
+				<prop key="hibernate.connection.isolation">2</prop>
+				<prop key="hibernate.jdbc.fetch_size">50</prop>
+			</props>
+		</property>
+		<!--自动扫描注解方式配置的hibernate类文件 -->
+		<property name="packagesToScan">
+			<list>
+				<value>utn.upc.entity</value>
+			</list>
+		</property>
+	</bean>
+
+	<!--配置事务管理器 -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!-- Transaction interceptor -->
+	<bean id="transactionInterceptor" class="utn.app.datasource.TransactionInterceptor">
+		<property name="transactionManager" ref="transactionManager" />
+		<property name="transactionAttributes">
+			<props>
+				<prop key="insert*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="update*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="edit*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="save*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="add*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="new*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="set*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="remove*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="delete*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="change*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="put*">PROPAGATION_REQUIRED,-Exception</prop>
+
+				<prop key="get*">PROPAGATION_REQUIRED,readOnly,-Exception</prop>
+				<prop key="find*">PROPAGATION_REQUIRED,readOnly,-Exception</prop>
+				<prop key="load*">PROPAGATION_REQUIRED,readOnly,-Exception</prop>
+				<prop key="search*">PROPAGATION_REQUIRED,readOnly,-Exception</prop>
+				<prop key="query*">PROPAGATION_REQUIRED,readOnly,-Exception</prop>
+				<prop key="use*">PROPAGATION_REQUIRED,readOnly,-Exception</prop>
+				<prop key="count*">PROPAGATION_REQUIRED,readOnly,-Exception</prop>
+				<prop key="list*">PROPAGATION_REQUIRED,readOnly,-Exception</prop>
+				<prop key="*">PROPAGATION_REQUIRED,readOnly,-Exception</prop>
+			</props>
+		</property>
+		<property name="prefixs">
+			<set>
+				<value>insert</value>
+				<value>update</value>
+				<value>edit</value>
+				<value>save</value>
+				<value>add</value>
+				<value>new</value>
+				<value>set</value>
+				<value>remove</value>
+				<value>delete</value>
+				<value>change</value>
+				<value>put</value>
+			</set>
+		</property>
+	</bean>
+
+	<!-- BeanName auto proxy to define the interceptor -->
+	<bean
+		class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<property name="beanNames">
+			<list>
+				<value>*Service</value>
+			</list>
+		</property>
+		<property name="interceptorNames">
+			<list>
+				<value>transactionInterceptor</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="baseTable" class="utn.app.base.BaseTableImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="captchaProducer" class="com.google.code.kaptcha.impl.DefaultKaptcha">
+		<property name="config">
+			<bean class="com.google.code.kaptcha.util.Config">
+				<constructor-arg>
+					<props>
+						<prop key="kaptcha.textproducer.font.names">Arial, Helvetica</prop>
+						<prop key="kaptcha.border">no</prop>
+						<prop key="kaptcha.border.color">0,0,0</prop>
+						<prop key="kaptcha.textproducer.font.color">21,107,139</prop>
+						<prop key="kaptcha.textproducer.font.size">40</prop>
+						<prop key="kaptcha.image.width">160</prop>
+						<prop key="kaptcha.obscurificator.impl">com.google.code.kaptcha.impl.WaterRipple</prop>
+						<prop key="kaptcha.textproducer.char.length">4</prop>
+						<prop key="kaptcha.textproducer.char.string">zxcvbnmasdfghjkqwertyupZXCVBNMASDFGHJKLQWERTYUP23456789
+						</prop>
+						<prop key="kaptcha.word.impl">com.google.code.kaptcha.text.impl.DefaultWordRenderer
+						</prop>
+						<prop key="kaptcha.textproducer.impl">com.google.code.kaptcha.text.impl.DefaultTextCreator
+						</prop>
+						<prop key="kaptcha.word.impl">com.google.code.kaptcha.text.impl.DefaultWordRenderer
+						</prop>
+						<prop key="kaptcha.background.clear.from">255,255,255</prop>
+						<prop key="kaptcha.background.clear.to">255,255,255</prop>
+						<prop key="kaptcha.noise.impl">com.google.code.kaptcha.impl.NoNoise</prop>
+					</props>
+				</constructor-arg>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- jedis 配置 -->
+	<bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
+		<property name="maxIdle" value="100" />
+		<property name="maxWaitMillis" value="1000" />
+		<property name="testOnBorrow" value="true" />
+	</bean>
+
+	<!-- redis服务器中心 -->
+	<bean id="connectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+		<property name="poolConfig" ref="poolConfig" />
+		<property name="port" value="6379" />
+		<property name="hostName" value="127.0.0.1" />
+		<property name="password" value="" />
+		<property name="timeout" value="100000"></property>
+	</bean>
+	<bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
+		<property name="connectionFactory" ref="connectionFactory" />
+		<property name="keySerializer">
+			<bean
+				class="org.springframework.data.redis.serializer.StringRedisSerializer" />
+		</property>
+		<property name="valueSerializer">
+			<bean
+				class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" />
+		</property>
+	</bean>
+
+	<!-- 自动加载构建bean -->
+	<context:component-scan base-package="utn.upc" />
+	<context:component-scan base-package="utn.upc/util/**" />
+
+	<!-- <task:annotation-driven/> -->
+</beans>

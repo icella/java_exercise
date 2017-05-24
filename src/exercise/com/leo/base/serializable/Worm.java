@@ -72,6 +72,7 @@ public class Worm implements Serializable {
 		String s = (String) in.readObject();
 		Worm w2 = (Worm)in.readObject();
 		System.out.println(s + "w2=" + w2);
+		in.close();
 		
 		ByteArrayOutputStream bout = new ByteArrayOutputStream();
 		ObjectOutputStream out2 = new ObjectOutputStream(bout);
